@@ -52,11 +52,11 @@ app.use((req, res, next)=>{
     next();
 });
 
-app.use('/api', user_route);
-app.use('/api', pregunta_route);
-app.use('/api', practicas_route);
-app.use('/api', pagos_route);
-app.use('/api', examen_route);
-app.use('/api', reviews_route);
+app.use('/test', user_route);
+app.use('/test', pregunta_route);
+app.use('/test', practicas_route);
+app.use('/test', pagos_route);
+app.use('/test', examen_route);
+app.use('/test', reviews_route);
 
 module.exports = app;
