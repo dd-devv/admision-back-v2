@@ -5,7 +5,7 @@ require("dotenv").config();
 var app = express();
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-var port = process.env.PORT || 4201;
+var port = process.env.PORT || 3200;
 
 var server = require('http').createServer(app);
 
